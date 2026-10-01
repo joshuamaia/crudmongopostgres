@@ -1,0 +1,28 @@
+-- Sample products. The same records (same ids) are provided for MongoDB in mongo/products.json.
+INSERT INTO products (id, name, description, price, quantity, category, active, created_at, updated_at)
+VALUES
+    ('00000000-0000-4000-8000-000000000001', 'Mechanical Keyboard', 'RGB mechanical keyboard with brown switches', 499.90, 25, 'Peripherals', TRUE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00'),
+    ('00000000-0000-4000-8000-000000000002', 'Wireless Gaming Mouse', 'Lightweight mouse with 26K DPI optical sensor', 349.90, 40, 'Peripherals', TRUE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00'),
+    ('00000000-0000-4000-8000-000000000003', 'USB-C Docking Station', '12-in-1 dock with dual HDMI and 100W power delivery', 899.00, 12, 'Peripherals', TRUE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00'),
+    ('00000000-0000-4000-8000-000000000004', 'Webcam Full HD', '1080p webcam with dual stereo microphones', 279.90, 30, 'Peripherals', TRUE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00'),
+    ('00000000-0000-4000-8000-000000000005', 'Ergonomic Vertical Mouse', 'Vertical mouse designed to reduce wrist strain', 189.90, 0, 'Peripherals', FALSE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00'),
+    ('00000000-0000-4000-8000-000000000006', '27-inch 4K Monitor', 'IPS panel, 60Hz, HDR10, USB-C input', 2499.00, 8, 'Monitors', TRUE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00'),
+    ('00000000-0000-4000-8000-000000000007', '34-inch Ultrawide Monitor', 'Curved 3440x1440 panel at 144Hz', 3299.00, 5, 'Monitors', TRUE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00'),
+    ('00000000-0000-4000-8000-000000000008', '24-inch Full HD Monitor', 'Entry-level IPS monitor with thin bezels', 799.90, 22, 'Monitors', TRUE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00'),
+    ('00000000-0000-4000-8000-000000000009', 'Portable Monitor 15.6', 'USB-C powered portable display', 1149.00, 0, 'Monitors', FALSE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00'),
+    ('00000000-0000-4000-8000-000000000010', 'Gaming Laptop 16', '16-inch laptop with RTX graphics and 32GB RAM', 11999.00, 4, 'Laptops', TRUE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00'),
+    ('00000000-0000-4000-8000-000000000011', 'Ultrabook 14', 'Thin and light laptop with 16GB RAM and 1TB SSD', 7499.00, 9, 'Laptops', TRUE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00'),
+    ('00000000-0000-4000-8000-000000000012', 'Chromebook 11', 'Affordable laptop for students', 1599.00, 15, 'Laptops', TRUE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00'),
+    ('00000000-0000-4000-8000-000000000013', 'NVMe SSD 1TB', 'PCIe 4.0 SSD with up to 7000MB/s read speed', 549.90, 50, 'Storage', TRUE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00'),
+    ('00000000-0000-4000-8000-000000000014', 'External HDD 4TB', 'USB 3.2 portable hard drive', 699.00, 18, 'Storage', TRUE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00'),
+    ('00000000-0000-4000-8000-000000000015', 'MicroSD 256GB', 'A2 V30 card for cameras and handhelds', 129.90, 100, 'Storage', TRUE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00'),
+    ('00000000-0000-4000-8000-000000000016', 'Noise Cancelling Headphones', 'Over-ear headphones with active noise cancellation', 1899.00, 14, 'Audio', TRUE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00'),
+    ('00000000-0000-4000-8000-000000000017', 'True Wireless Earbuds', 'Bluetooth 5.3 earbuds with charging case', 399.90, 60, 'Audio', TRUE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00'),
+    ('00000000-0000-4000-8000-000000000018', 'USB Condenser Microphone', 'Cardioid microphone for streaming and podcasts', 599.00, 11, 'Audio', TRUE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00'),
+    ('00000000-0000-4000-8000-000000000019', 'Bookshelf Speakers', 'Pair of powered 2.0 speakers', 999.00, 0, 'Audio', FALSE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00'),
+    ('00000000-0000-4000-8000-000000000020', 'Wi-Fi 6 Router', 'Dual-band AX3000 router', 749.90, 20, 'Networking', TRUE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00'),
+    ('00000000-0000-4000-8000-000000000021', 'Mesh Wi-Fi Kit', 'Three-node mesh system for large homes', 1999.00, 7, 'Networking', TRUE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00'),
+    ('00000000-0000-4000-8000-000000000022', '8-Port Gigabit Switch', 'Unmanaged metal-case network switch', 219.90, 35, 'Networking', TRUE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00'),
+    ('00000000-0000-4000-8000-000000000023', 'Standing Desk', 'Electric height-adjustable desk 140x70cm', 2799.00, 6, 'Office', TRUE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00'),
+    ('00000000-0000-4000-8000-000000000024', 'Ergonomic Office Chair', 'Mesh chair with lumbar support and 4D armrests', 1699.00, 10, 'Office', TRUE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00'),
+    ('00000000-0000-4000-8000-000000000025', 'Monitor Arm', 'Gas spring arm for monitors up to 32 inches', 259.90, 28, 'Office', TRUE, '2026-01-01 00:00:00+00', '2026-01-01 00:00:00+00');

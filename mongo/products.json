@@ -1,0 +1,427 @@
+[
+  {
+    "_id": "00000000-0000-4000-8000-000000000001",
+    "name": "Mechanical Keyboard",
+    "description": "RGB mechanical keyboard with brown switches",
+    "price": {
+      "$numberDecimal": "499.90"
+    },
+    "quantity": 25,
+    "category": "Peripherals",
+    "active": true,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": "00000000-0000-4000-8000-000000000002",
+    "name": "Wireless Gaming Mouse",
+    "description": "Lightweight mouse with 26K DPI optical sensor",
+    "price": {
+      "$numberDecimal": "349.90"
+    },
+    "quantity": 40,
+    "category": "Peripherals",
+    "active": true,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": "00000000-0000-4000-8000-000000000003",
+    "name": "USB-C Docking Station",
+    "description": "12-in-1 dock with dual HDMI and 100W power delivery",
+    "price": {
+      "$numberDecimal": "899.00"
+    },
+    "quantity": 12,
+    "category": "Peripherals",
+    "active": true,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": "00000000-0000-4000-8000-000000000004",
+    "name": "Webcam Full HD",
+    "description": "1080p webcam with dual stereo microphones",
+    "price": {
+      "$numberDecimal": "279.90"
+    },
+    "quantity": 30,
+    "category": "Peripherals",
+    "active": true,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": "00000000-0000-4000-8000-000000000005",
+    "name": "Ergonomic Vertical Mouse",
+    "description": "Vertical mouse designed to reduce wrist strain",
+    "price": {
+      "$numberDecimal": "189.90"
+    },
+    "quantity": 0,
+    "category": "Peripherals",
+    "active": false,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": "00000000-0000-4000-8000-000000000006",
+    "name": "27-inch 4K Monitor",
+    "description": "IPS panel, 60Hz, HDR10, USB-C input",
+    "price": {
+      "$numberDecimal": "2499.00"
+    },
+    "quantity": 8,
+    "category": "Monitors",
+    "active": true,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": "00000000-0000-4000-8000-000000000007",
+    "name": "34-inch Ultrawide Monitor",
+    "description": "Curved 3440x1440 panel at 144Hz",
+    "price": {
+      "$numberDecimal": "3299.00"
+    },
+    "quantity": 5,
+    "category": "Monitors",
+    "active": true,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": "00000000-0000-4000-8000-000000000008",
+    "name": "24-inch Full HD Monitor",
+    "description": "Entry-level IPS monitor with thin bezels",
+    "price": {
+      "$numberDecimal": "799.90"
+    },
+    "quantity": 22,
+    "category": "Monitors",
+    "active": true,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": "00000000-0000-4000-8000-000000000009",
+    "name": "Portable Monitor 15.6",
+    "description": "USB-C powered portable display",
+    "price": {
+      "$numberDecimal": "1149.00"
+    },
+    "quantity": 0,
+    "category": "Monitors",
+    "active": false,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": "00000000-0000-4000-8000-000000000010",
+    "name": "Gaming Laptop 16",
+    "description": "16-inch laptop with RTX graphics and 32GB RAM",
+    "price": {
+      "$numberDecimal": "11999.00"
+    },
+    "quantity": 4,
+    "category": "Laptops",
+    "active": true,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": "00000000-0000-4000-8000-000000000011",
+    "name": "Ultrabook 14",
+    "description": "Thin and light laptop with 16GB RAM and 1TB SSD",
+    "price": {
+      "$numberDecimal": "7499.00"
+    },
+    "quantity": 9,
+    "category": "Laptops",
+    "active": true,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": "00000000-0000-4000-8000-000000000012",
+    "name": "Chromebook 11",
+    "description": "Affordable laptop for students",
+    "price": {
+      "$numberDecimal": "1599.00"
+    },
+    "quantity": 15,
+    "category": "Laptops",
+    "active": true,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": "00000000-0000-4000-8000-000000000013",
+    "name": "NVMe SSD 1TB",
+    "description": "PCIe 4.0 SSD with up to 7000MB/s read speed",
+    "price": {
+      "$numberDecimal": "549.90"
+    },
+    "quantity": 50,
+    "category": "Storage",
+    "active": true,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": "00000000-0000-4000-8000-000000000014",
+    "name": "External HDD 4TB",
+    "description": "USB 3.2 portable hard drive",
+    "price": {
+      "$numberDecimal": "699.00"
+    },
+    "quantity": 18,
+    "category": "Storage",
+    "active": true,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": "00000000-0000-4000-8000-000000000015",
+    "name": "MicroSD 256GB",
+    "description": "A2 V30 card for cameras and handhelds",
+    "price": {
+      "$numberDecimal": "129.90"
+    },
+    "quantity": 100,
+    "category": "Storage",
+    "active": true,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": "00000000-0000-4000-8000-000000000016",
+    "name": "Noise Cancelling Headphones",
+    "description": "Over-ear headphones with active noise cancellation",
+    "price": {
+      "$numberDecimal": "1899.00"
+    },
+    "quantity": 14,
+    "category": "Audio",
+    "active": true,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": "00000000-0000-4000-8000-000000000017",
+    "name": "True Wireless Earbuds",
+    "description": "Bluetooth 5.3 earbuds with charging case",
+    "price": {
+      "$numberDecimal": "399.90"
+    },
+    "quantity": 60,
+    "category": "Audio",
+    "active": true,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": "00000000-0000-4000-8000-000000000018",
+    "name": "USB Condenser Microphone",
+    "description": "Cardioid microphone for streaming and podcasts",
+    "price": {
+      "$numberDecimal": "599.00"
+    },
+    "quantity": 11,
+    "category": "Audio",
+    "active": true,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": "00000000-0000-4000-8000-000000000019",
+    "name": "Bookshelf Speakers",
+    "description": "Pair of powered 2.0 speakers",
+    "price": {
+      "$numberDecimal": "999.00"
+    },
+    "quantity": 0,
+    "category": "Audio",
+    "active": false,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": "00000000-0000-4000-8000-000000000020",
+    "name": "Wi-Fi 6 Router",
+    "description": "Dual-band AX3000 router",
+    "price": {
+      "$numberDecimal": "749.90"
+    },
+    "quantity": 20,
+    "category": "Networking",
+    "active": true,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": "00000000-0000-4000-8000-000000000021",
+    "name": "Mesh Wi-Fi Kit",
+    "description": "Three-node mesh system for large homes",
+    "price": {
+      "$numberDecimal": "1999.00"
+    },
+    "quantity": 7,
+    "category": "Networking",
+    "active": true,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": "00000000-0000-4000-8000-000000000022",
+    "name": "8-Port Gigabit Switch",
+    "description": "Unmanaged metal-case network switch",
+    "price": {
+      "$numberDecimal": "219.90"
+    },
+    "quantity": 35,
+    "category": "Networking",
+    "active": true,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": "00000000-0000-4000-8000-000000000023",
+    "name": "Standing Desk",
+    "description": "Electric height-adjustable desk 140x70cm",
+    "price": {
+      "$numberDecimal": "2799.00"
+    },
+    "quantity": 6,
+    "category": "Office",
+    "active": true,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": "00000000-0000-4000-8000-000000000024",
+    "name": "Ergonomic Office Chair",
+    "description": "Mesh chair with lumbar support and 4D armrests",
+    "price": {
+      "$numberDecimal": "1699.00"
+    },
+    "quantity": 10,
+    "category": "Office",
+    "active": true,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "_id": "00000000-0000-4000-8000-000000000025",
+    "name": "Monitor Arm",
+    "description": "Gas spring arm for monitors up to 32 inches",
+    "price": {
+      "$numberDecimal": "259.90"
+    },
+    "quantity": 28,
+    "category": "Office",
+    "active": true,
+    "createdAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2026-01-01T00:00:00.000Z"
+    }
+  }
+]
